@@ -13,7 +13,7 @@
 $server = "vcenter-server.bryan86.hu"
 $user = "administrator@bryan.local"
 
-function VIServer_login($server,$user,$port) {
+function VIServer_login($server,$user) {
     Connect-VIServer -Server $server -Port 444 -User $user
 }
 
