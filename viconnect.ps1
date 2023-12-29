@@ -20,4 +20,4 @@ function VIServer_login($server,$user) {
 VIServer_login($server,$user)
 
 #Test command
-Get-VMHost
+#Get-VMHost
