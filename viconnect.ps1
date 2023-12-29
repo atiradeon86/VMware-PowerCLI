@@ -1,4 +1,5 @@
 #The first step
+#Install-Module VMware.PowerCLI -Scope CurrentUser
 
 #Create the local credential for login
 #New-VICredentialStoreItem -Host vcenter-server.bryan86.hu -User -Password
